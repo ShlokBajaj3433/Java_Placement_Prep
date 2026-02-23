@@ -9,5 +9,22 @@ public class Main {
 
         System.out.println(Human.Population);
         System.out.println(Human.Population);
+
+        // Static method can be called without creating an object of the class
+        Greet();
+    }
+
+    void fun() {
+        System.out.println("This is a static method");
+        Greet();
+    }
+
+    static void Greet() {
+        System.out.println("Hello");
+        // fun();  This will give an error because we cannot call a non-static method from a static method
+        // reason: static methods belong to the class and non-static methods belong to the object. Static methods can be called without creating an object of the class, but non-static methods cannot be called without creating an object of the class.
+
+        Main obj = new Main();
+        obj.fun(); // we can call a non-static method from a static method by creating an object of the class
     }
 }
