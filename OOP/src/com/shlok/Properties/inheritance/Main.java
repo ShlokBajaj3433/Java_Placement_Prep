@@ -1,5 +1,6 @@
 package com.shlok.Properties.inheritance;
 
+
 public class Main {
     public static void main(String[] args) {
         Box box1 = new Box();
@@ -9,6 +10,10 @@ public class Main {
         System.out.println("Box 1: " + box1.getLength() + " " + box1.getHeight() + " " + box1.getWidth());
         System.out.println("Box 2: " + box2.getLength() + " " + box2.getHeight() + " " + box2.getWidth());
         System.out.println("Box 3: " + box3.getLength() + " " + box3.getHeight() + " " + box3.getWidth());
+
+        BoxWeight boxWeight1 = new BoxWeight();
+        // Trying to access the private member length of the Box class will result in a compilation error
+        // System.out.println(boxWeight1.length); // Error: length has private access in Box
 
     }
 }

@@ -11,6 +11,7 @@ public  class BoxWeight extends Box {
     BoxWeight(double side, double weight) {
         super(side);
         this.weight = weight;
+    //  System.out.println(super.height);
     }
 
     BoxWeight(double length, double height, double width, double weight) {

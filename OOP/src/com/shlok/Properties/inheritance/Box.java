@@ -22,6 +22,7 @@ public class Box {
         this.height = height;
         this.width = width;
     }
+
     public double getLength() {
         return length;
     }
