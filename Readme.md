@@ -56,17 +56,17 @@ This checklist is specifically designed for **placements and interviews** at com
 
 ### 🔴 Setup & Java Basics (CRITICAL)
 
-- [ ] **Environment Setup**
-  - [ ] Install JDK 17 or 21 (LTS versions)
-  - [ ] Setup IntelliJ IDEA / Eclipse / VS Code
-  - [ ] Configure Git and create GitHub account
-  - [ ] First "Hello World" program
+- [x] **Environment Setup**
+  - [x] Install JDK 17 or 21 (LTS versions)
+  - [x] Setup IntelliJ IDEA / Eclipse / VS Code
+  - [x] Configure Git and create GitHub account
+  - [x] First "Hello World" program
 
 - [ ] **Data Types & Variables** (Asked in 80% interviews)
   - [ ] All 8 primitive types: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`
   - [ ] Difference between primitive and non-primitive
   - [ ] Type casting and conversion
-  - [ ] Wrapper classes and autoboxing/unboxing
+  - [x] Wrapper classes and autoboxing/unboxing
   - [ ] **Practice**: Write programs demonstrating each type
 
 - [ ] **Operators & Control Flow**
@@ -80,22 +80,22 @@ This checklist is specifically designed for **placements and interviews** at com
 - [ ] **Classes & Objects**
   - [ ] Create at least 10 different classes
   - [ ] Instance vs class members
-  - [ ] `this` keyword usage
+  - [x] `this` keyword usage
   - [ ] Object creation and memory allocation
   - [ ] **Interview Q**: Explain object creation process in memory
 
 - [ ] **Encapsulation** (Asked in every interview)
-  - [ ] Private fields with public getters/setters
+  - [x] Private fields with public getters/setters
   - [ ] Why encapsulation is important
-  - [ ] Real-world examples (Bank Account, Student)
+  - [x] Real-world examples (Bank Account, Student)
   - [ ] **Practice**: Create 5 encapsulated classes
 
 - [ ] **Constructors** (Very frequently asked)
-  - [ ] Default constructor
-  - [ ] Parameterized constructor
-  - [ ] Constructor overloading
-  - [ ] Constructor chaining with `this()` and `super()`
-  - [ ] Copy constructor
+  - [x] Default constructor
+  - [x] Parameterized constructor
+  - [x] Constructor overloading
+  - [x] Constructor chaining with `this()` and `super()`
+  - [x] Copy constructor
   - [ ] **Interview Qs**: 
     - [ ] Can constructor be private?
     - [ ] Constructor vs method differences
@@ -104,12 +104,12 @@ This checklist is specifically designed for **placements and interviews** at com
 ### 🔴 OOPs - Part 2 (CRITICAL FOR INTERVIEWS)
 
 - [ ] **Inheritance** (70% interview probability)
-  - [ ] Single inheritance
+  - [x] Single inheritance
   - [ ] Multilevel inheritance
   - [ ] Hierarchical inheritance
   - [ ] Why multiple inheritance is not supported
-  - [ ] `super` keyword
-  - [ ] Method overriding rules
+  - [x] `super` keyword
+  - [x] Method overriding rules
   - [ ] **Interview Qs**:
     - [ ] What is inherited and what is not?
     - [ ] Can we override static methods?
@@ -117,20 +117,20 @@ This checklist is specifically designed for **placements and interviews** at com
 
 - [ ] **Polymorphism** (Asked in 90% interviews)
   - [ ] **Compile-time (Method Overloading)**
-    - [ ] Overloading rules
+    - [x] Overloading rules
     - [ ] Can we overload main method?
     - [ ] Varargs in overloading
   - [ ] **Runtime (Method Overriding)**
-    - [ ] Overriding rules
+    - [x] Overriding rules
     - [ ] Covariant return types
-    - [ ] Dynamic method dispatch
+    - [x] Dynamic method dispatch
   - [ ] **Interview Qs**:
     - [ ] Overloading vs Overriding (prepare table)
     - [ ] Can we override private/static/final methods?
 
 - [ ] **Abstraction** (60% interview probability)
-  - [ ] Abstract classes
-  - [ ] Abstract methods
+  - [x] Abstract classes
+  - [x] Abstract methods
   - [ ] When to use abstract classes
   - [ ] Interfaces (before Java 8 and after)
   - [ ] Multiple inheritance through interfaces
@@ -143,22 +143,22 @@ This checklist is specifically designed for **placements and interviews** at com
 ### 🔴 Modifiers, Exception Handling & Packages
 
 - [ ] **Access Modifiers** (Always asked)
-  - [ ] `public`, `private`, `protected`, `default`
+  - [x] `public`, `private`, `protected`, `default`
   - [ ] Create examples with different packages
   - [ ] Visibility table preparation
   - [ ] **Interview Q**: Access modifier visibility across packages
 
 - [ ] **Non-Access Modifiers**
   - [ ] **Static** (Very important)
-    - [ ] Static variables and methods
+    - [x] Static variables and methods
     - [ ] Static blocks execution order
     - [ ] Why main() is static?
-    - [ ] Static nested classes
+    - [x] Static nested classes
     - [ ] **Interview Qs**: Can we override static methods? Can we access non-static from static?
   - [ ] **Final** (Frequently asked)
-    - [ ] Final variables (constants)
-    - [ ] Final methods (prevent overriding)
-    - [ ] Final classes (prevent inheritance)
+    - [x] Final variables (constants)
+    - [x] Final methods (prevent overriding)
+    - [x] Final classes (prevent inheritance)
     - [ ] Blank final variables
     - [ ] **Interview Q**: Difference between finally, final, and finalize
 
@@ -178,7 +178,7 @@ This checklist is specifically designed for **placements and interviews** at com
     - [ ] Difference between Error and Exception
 
 - [ ] **Packages**
-  - [ ] Create custom packages
+  - [x] Create custom packages
   - [ ] Import statements
   - [ ] Package naming conventions
   - [ ] Built-in packages exploration
