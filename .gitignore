@@ -1,1 +1,4 @@
 *.class
+/OOP/out/com/shlok/src/com/shlok/clg_Practice/
+.idea/
+*.iml
