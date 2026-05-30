@@ -78,8 +78,8 @@ This checklist is specifically designed for **placements and interviews** at com
 ### 🔴 OOPs - Part 1 (MOST IMPORTANT)
 
 - [ ] **Classes & Objects**
-  - [ ] Create at least 10 different classes
-  - [ ] Instance vs class members
+  - [x] Create at least 10 different classes
+  - [x] Instance vs class members
   - [x] `this` keyword usage
   - [ ] Object creation and memory allocation
   - [ ] **Interview Q**: Explain object creation process in memory
@@ -105,7 +105,7 @@ This checklist is specifically designed for **placements and interviews** at com
 
 - [ ] **Inheritance** (70% interview probability)
   - [x] Single inheritance
-  - [ ] Multilevel inheritance
+  - [x] Multilevel inheritance
   - [ ] Hierarchical inheritance
   - [ ] Why multiple inheritance is not supported
   - [x] `super` keyword

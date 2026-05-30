@@ -12,4 +12,4 @@ public class Main {
         child.showParentInfo();
         child.showChildInfo();
     }
-}
+}   
