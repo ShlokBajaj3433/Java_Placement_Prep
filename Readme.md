@@ -63,16 +63,16 @@ This checklist is specifically designed for **placements and interviews** at com
   - [x] First "Hello World" program
 
 - [ ] **Data Types & Variables** (Asked in 80% interviews)
-  - [ ] All 8 primitive types: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`
-  - [ ] Difference between primitive and non-primitive
-  - [ ] Type casting and conversion
+  - [x] All 8 primitive types: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`
+  - [x] Difference between primitive and non-primitive
+  - [x] Type casting and conversion
   - [x] Wrapper classes and autoboxing/unboxing
   - [ ] **Practice**: Write programs demonstrating each type
 
-- [ ] **Operators & Control Flow**
-  - [ ] Arithmetic, relational, logical, bitwise operators
-  - [ ] if-else, switch-case, loops (for, while, do-while)
-  - [ ] Break, continue, return statements
+- [x] **Operators & Control Flow**
+  - [x] Arithmetic, relational, logical, bitwise operators
+  - [x] if-else, switch-case, loops (for, while, do-while)
+  - [x] Break, continue, return statements
   - [ ] **Interview Q**: Explain short-circuit evaluation
 
 ### 🔴 OOPs - Part 1 (MOST IMPORTANT)
@@ -81,7 +81,7 @@ This checklist is specifically designed for **placements and interviews** at com
   - [x] Create at least 10 different classes
   - [x] Instance vs class members
   - [x] `this` keyword usage
-  - [ ] Object creation and memory allocation
+  - [x] Object creation and memory allocation
   - [ ] **Interview Q**: Explain object creation process in memory
 
 - [ ] **Encapsulation** (Asked in every interview)
@@ -106,8 +106,8 @@ This checklist is specifically designed for **placements and interviews** at com
 - [ ] **Inheritance** (70% interview probability)
   - [x] Single inheritance
   - [x] Multilevel inheritance
-  - [ ] Hierarchical inheritance
-  - [ ] Why multiple inheritance is not supported
+  - [x] Hierarchical inheritance
+  - [x] Why multiple inheritance is not supported
   - [x] `super` keyword
   - [x] Method overriding rules
   - [ ] **Interview Qs**:
@@ -131,10 +131,10 @@ This checklist is specifically designed for **placements and interviews** at com
 - [ ] **Abstraction** (60% interview probability)
   - [x] Abstract classes
   - [x] Abstract methods
-  - [ ] When to use abstract classes
-  - [ ] Interfaces (before Java 8 and after)
-  - [ ] Multiple inheritance through interfaces
-  - [ ] Default and static methods in interfaces (Java 8+)
+  - [x] When to use abstract classes
+  - [x] Interfaces (before Java 8 and after)
+  - [x] Multiple inheritance through interfaces
+  - [x] Default and static methods in interfaces (Java 8+)
   - [ ] **Interview Qs**:
     - [ ] Abstract class vs Interface (prepare comparison table)
     - [ ] Can interface have constructors?
@@ -151,8 +151,8 @@ This checklist is specifically designed for **placements and interviews** at com
 - [ ] **Non-Access Modifiers**
   - [ ] **Static** (Very important)
     - [x] Static variables and methods
-    - [ ] Static blocks execution order
-    - [ ] Why main() is static?
+    - [x] Static blocks execution order
+    - [x] Why main() is static?
     - [x] Static nested classes
     - [ ] **Interview Qs**: Can we override static methods? Can we access non-static from static?
   - [ ] **Final** (Frequently asked)
@@ -179,26 +179,26 @@ This checklist is specifically designed for **placements and interviews** at com
 
 - [ ] **Packages**
   - [x] Create custom packages
-  - [ ] Import statements
-  - [ ] Package naming conventions
-  - [ ] Built-in packages exploration
+  - [x] Import statements
+  - [x] Package naming conventions
+  - [x] Built-in packages exploration
 
 ### 🟡 Important Java Concepts
 
-- [ ] **Strings** (Very frequently asked)
-  - [ ] String immutability
-  - [ ] String pool concept
-  - [ ] String vs StringBuffer vs StringBuilder
-  - [ ] Common String methods (30+ methods)
+- [x] **Strings** (Very frequently asked)
+  - [x] String immutability
+  - [x] String pool concept
+  - [x] String vs StringBuffer vs StringBuilder
+  - [x] Common String methods (30+ methods)
   - [ ] **Interview Qs**:
     - [ ] Why String is immutable?
     - [ ] How many objects created: `String s = new String("hello")`?
     - [ ] Performance comparison of String concatenation
 
-- [ ] **Arrays**
-  - [ ] Single and multi-dimensional arrays
-  - [ ] Array manipulation problems
-  - [ ] Arrays class utility methods
+- [x] **Arrays**
+  - [x] Single and multi-dimensional arrays
+  - [x] Array manipulation problems
+  - [x] Arrays class utility methods
 
 ---
 
@@ -208,22 +208,22 @@ This checklist is specifically designed for **placements and interviews** at com
 
 ### 🔴 Collection Framework (EXTREMELY IMPORTANT)
 
-- [ ] **Collection Hierarchy** (Must know diagram)
-  - [ ] Draw and memorize collection hierarchy
-  - [ ] Collection vs Collections
-  - [ ] Iterable interface
+- [x] **Collection Hierarchy** (Must know diagram)
+  - [x] Draw and memorize collection hierarchy
+  - [x] Collection vs Collections
+  - [x] Iterable interface
 
-- [ ] **List Interface** (Asked in every interview)
+- [x] **List Interface** (Asked in every interview)
   - [ ] **ArrayList**
-    - [ ] Internal working (dynamic array)
-    - [ ] Time complexities (add, remove, get)
-    - [ ] Initial capacity and load factor
-    - [ ] When to use ArrayList
+    - [x] Internal working (dynamic array)
+    - [x] Time complexities (add, remove, get)
+    - [x] Initial capacity and load factor
+    - [x] When to use ArrayList
     - [ ] **Interview Qs**: ArrayList vs Array, growth mechanism
   - [ ] **LinkedList**
-    - [ ] Doubly linked list implementation
-    - [ ] Time complexities
-    - [ ] When to use LinkedList
+    - [x] Doubly linked list implementation
+    - [x] Time complexities
+    - [x] When to use LinkedList
     - [ ] **Interview Q**: ArrayList vs LinkedList (prepare comparison table)
   - [ ] **Vector & Stack**
     - [ ] Thread-safe nature
@@ -231,15 +231,15 @@ This checklist is specifically designed for **placements and interviews** at com
     - [ ] Stack operations (push, pop, peek)
 
 - [ ] **Set Interface** (60% interview probability)
-  - [ ] **HashSet**
-    - [ ] Internal working (HashMap based)
-    - [ ] How duplicates are prevented
-    - [ ] Null handling
-  - [ ] **LinkedHashSet**
-    - [ ] Maintains insertion order
-  - [ ] **TreeSet**
-    - [ ] Sorted set (Red-Black tree)
-    - [ ] Comparable vs Comparator
+  - [x] **HashSet**
+    - [x] Internal working (HashMap based)
+    - [x] How duplicates are prevented
+    - [x] Null handling
+  - [x] **LinkedHashSet**
+    - [x] Maintains insertion order
+  - [x] **TreeSet**
+    - [x] Sorted set (Red-Black tree)
+    - [x] Comparable vs Comparator
   - [ ] **Interview Qs**:
     - [ ] HashSet vs TreeSet vs LinkedHashSet
     - [ ] How HashSet checks duplicates
@@ -433,13 +433,13 @@ This checklist is specifically designed for **placements and interviews** at com
 ### 🔴 Arrays & Strings (50+ problems)
 
 - [ ] **Two Pointer Technique** (15 problems)
-  - [ ] Two Sum, Three Sum, Four Sum
+  - [x] Two Sum, Three Sum, Four Sum
   - [ ] Container with Most Water
-  - [ ] Trapping Rain Water
+  - [x] Trapping Rain Water
   - [ ] Remove Duplicates from Sorted Array
   
 - [ ] **Sliding Window** (15 problems)
-  - [ ] Maximum Sum Subarray of Size K
+  - [x] Maximum Sum Subarray of Size K
   - [ ] Longest Substring Without Repeating Characters
   - [ ] Minimum Window Substring
   - [ ] Longest Repeating Character Replacement
@@ -606,25 +606,6 @@ This checklist is specifically designed for **placements and interviews** at com
   - [ ] Reverse Bits
   - [ ] Sum of Two Integers
 
-### 📈 DSA Progress Tracking
-
-**Daily Log Template:**
-```markdown
-Date: [DD/MM/YYYY]
-Problems Solved: [X]
-- Problem 1: [Name] - [Easy/Medium/Hard] - [Link]
-- Problem 2: [Name] - [Easy/Medium/Hard] - [Link]
-Concepts Learned:
-- Concept 1
-Struggled With:
-- Problem X - Need to revisit
-```
-
-**Weekly Summary:**
-- Total Problems: XX
-- Easy: X | Medium: X | Hard: X
-- Topics Covered: [List]
-- Problems to Revisit: [List]
 
 ---
 
@@ -1560,49 +1541,6 @@ If time permits, consider:
 - [ ] AWS Certified Developer Associate
 
 **Note**: Certifications are bonus, not mandatory. Focus on projects and problem-solving first!
-
----
-
-## 🎯 Weekly Progress Template
-
-Copy this template each week:
-
-```markdown
-## Week [X] - [Start Date] to [End Date]
-
-### Topics Covered
-- [ ] Topic 1
-- [ ] Topic 2
-- [ ] Topic 3
-
-### DSA Problems (Daily Count)
-- Monday: X problems
-- Tuesday: X problems
-- Wednesday: X problems
-- Thursday: X problems
-- Friday: X problems
-- Saturday: X problems
-- Sunday: X problems
-**Total this week**: XX problems
-
-### Projects/Coding
-- [ ] Work done this week
-
-### Interview Prep
-- [ ] Concepts revised
-- [ ] Mock interviews (if any)
-
-### Challenges Faced
-- Challenge 1 and how you solved it
-
-### Next Week Plan
-- [ ] Goal 1
-- [ ] Goal 2
-- [ ] Goal 3
-
-### Notes
-- Any important learnings
-```
 
 ---
 
